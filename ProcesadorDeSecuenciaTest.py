@@ -9,5 +9,8 @@ class ProcesadorDeSecuenciaTest(TestCase):
         self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos("1"),1,"Cadena Un numero")
 
     def test_cantidadDeElementosMasDeUnNumero(self):
-            self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos("1,2"),2, "Cadena mas de un numero")
+        self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos("1,2"),2, "Cadena mas de un numero")
+
+    def test_cantidadDeElementoNNumeros(self):
+        self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos("1,2,3,4,5,6,7,8"),8, "Cadena n numeros")
 
