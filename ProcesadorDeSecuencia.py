@@ -3,7 +3,5 @@ class ProcesadorDeSecuencia:
     def cantidadDeElementos(self,cadena):
         if cadena=="":
             return 0
-        elif "," in cadena:
-            return 2
         else:
-            return 1
+            return len(cadena.split(","))
