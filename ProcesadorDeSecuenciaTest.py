@@ -3,7 +3,7 @@ from unittest import TestCase
 from ProcesadorDeSecuencia import ProcesadorDeSecuencia
 class ProcesadorDeSecuenciaTest(TestCase):
     def test_cantidadDeElementos(self):
-        self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos(""),0,"Cadena vacia")
+        self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos(""),[0,None],"Cadena vacia")
 
     def test_cantidadDeElementosUnNumero(self):
         self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos("1"),1,"Cadena Un numero")
@@ -13,4 +13,6 @@ class ProcesadorDeSecuenciaTest(TestCase):
 
     def test_cantidadDeElementoNNumeros(self):
         self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos("1,2,3,4,5,6,7,8"),8, "Cadena n numeros")
+
+
 
