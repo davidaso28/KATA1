@@ -1,4 +1,4 @@
 
 class ProcesadorDeSecuencia:
-    def cantidadDeElementos(cadena):
-        pass
+    def cantidadDeElementos(self,cadena):
+        return 0
