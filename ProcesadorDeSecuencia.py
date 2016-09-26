@@ -22,5 +22,7 @@ class ProcesadorDeSecuencia:
     def cantidadMinimoMaximoPromedio(self,cadena):
         if cadena=="":
             return[0,None,None,None]
+        else:
+            return [1,int(cadena),int(cadena),int(cadena)]
 
 
