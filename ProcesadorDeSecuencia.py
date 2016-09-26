@@ -14,6 +14,7 @@ class ProcesadorDeSecuencia:
             return [len(cadena.split(",")),min(map(int,cadena.split(",")))]
 
     def cantidadDeElementosYMaximo(self,cadena):
-        pass
+        if cadena == "":
+            return [0,None,None]
 
 
