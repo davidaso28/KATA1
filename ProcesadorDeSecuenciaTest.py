@@ -54,7 +54,11 @@ class ProcesadorDeSecuenciaTest(TestCase):
 
     def test_cantidadDeElementosMinimoMaximoPromedioDosNumeros(self):
             self.assertEqual(ProcesadorDeSecuencia().cantidadMinimoMaximoPromedio("3,2"), [2, 2, 3, 2.5],
-                             "Cadena un numero minimo maximo promedio")
+                             "Cadena dos numero minimo maximo promedio")
+
+    def test_cantidadDeElementosMinimoMaximoPromedioNNumeros(self):
+            self.assertEqual(ProcesadorDeSecuencia().cantidadMinimoMaximoPromedio("3,2,4"), [3, 2, 4, 3],
+                             "Cadena N numero minimo maximo promedio")
 
 
 
