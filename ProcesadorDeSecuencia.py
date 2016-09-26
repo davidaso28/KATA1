@@ -19,4 +19,7 @@ class ProcesadorDeSecuencia:
         else:
             return [len(cadena.split(",")),min(map(int,cadena.split(","))),max(map(int,cadena.split(",")))]
 
+    def cantidadMinimoMaximoPromedio(self,cadena):
+        pass
+
 
