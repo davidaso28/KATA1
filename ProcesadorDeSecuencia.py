@@ -13,3 +13,7 @@ class ProcesadorDeSecuencia:
 
             return [len(cadena.split(",")),min(map(int,cadena.split(",")))]
 
+    def cantidadDeElementosYMaximo(self,cadena):
+        pass
+
+

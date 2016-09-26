@@ -30,3 +30,8 @@ class ProcesadorDeSecuenciaTest(TestCase):
             self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementosYminimo("3,2,5"), [3, 2], "Cadena N numero")
 
 
+    ##Iteracion tres candidad de elementos minimo y maximo
+    def test_cantidadDeElementosMinimoMaximo(self):
+                self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementosYMaximo(""), [0, None,None], "Cadena vacia minimo maximo")
+
+
