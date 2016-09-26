@@ -20,6 +20,6 @@ class ProcesadorDeSecuenciaTest(TestCase):
             self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementosYminimo(""), [0,None], "Cadena vacia")
 
     def test_cantidadDeElementosMinimoUnNumero(self):
-        self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementos("3"),3,"Cadena Un numero")
+        self.assertEqual(ProcesadorDeSecuencia().cantidadDeElementosYminimo("3"),[1,3],"Cadena Un numero")
 
 

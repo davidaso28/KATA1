@@ -9,4 +9,5 @@ class ProcesadorDeSecuencia:
     def cantidadDeElementosYminimo(self,cadena):
         if cadena == "":
             return [0,None]
-
+        else:
+            return [1,int(cadena)]
