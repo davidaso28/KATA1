@@ -16,5 +16,7 @@ class ProcesadorDeSecuencia:
     def cantidadDeElementosYMaximo(self,cadena):
         if cadena == "":
             return [0,None,None]
+        else:
+            return [1,int(cadena),int(cadena)]
 
 
